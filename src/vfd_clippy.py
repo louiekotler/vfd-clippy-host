@@ -5,7 +5,7 @@ import serial
 import serial.tools.list_ports
 from AppKit import NSPasteboard
 
-USB_PRODUCT_NAME = "VFD Clipboard"
+USB_PRODUCT_NAME = "VFD Clippy"
 BAUDRATE = 115200
 
 ser = None
