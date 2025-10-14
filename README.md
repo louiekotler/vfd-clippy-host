@@ -15,7 +15,9 @@ Host MacOS service for VFD Clippy
 ### Modify and Build Executable
 1. Modify project files if desired
 1. `cd scripts`
+1. `chmod +x build_exec.sh`
 1. `./build_exec.sh`
+1. `chmod +x install.sh`
 1. `./install.sh`
 
 ## Uninstall
