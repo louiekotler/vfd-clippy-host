@@ -7,6 +7,6 @@ on:
 
 jobs:
   backup_to_dropbox:
-    uses: personal-workflows/backup-workflows/.github/workflows/backup-to-dropbox.yml@main
+    uses: louiekotler/personal-workflows/.github/workflows/backup-to-dropbox.yml@main
     secrets:
       DROPBOX_ACCESS_TOKEN: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
